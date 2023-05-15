@@ -36,24 +36,35 @@ public class ArrayMethods {
 
         //Arrays.fill() methods can fill/insert an array with a given value.
 
-        double[] dValues = new double[100];
-        Arrays.fill(dValues, 50.0); // set all values to 50
-        System.out.println(dValues[7]);
+//        double[] dValues = new double[100];
+//        Arrays.fill(dValues, 50.0); // set all values to 50
+//        System.out.println(dValues[7]);
+//
+//        long[] lValues = new long[500];
+//        Arrays.fill(lValues, 2057); // set all values to 2057
+//        System.out.println(lValues[9]);
+//
+//
+//        // int array example
+//        int arr[] = {10, 20, 30, 40, 50};
+//        System.out.println("Original = " + Arrays.toString(arr));
+//
+//        Arrays.fill(arr,99);
+//        System.out.println("After filling = " + Arrays.toString(arr));
+//
+//        Arrays.fill(arr, 0, 3, 88);
+//        System.out.println("After filling first 3 elements = " + Arrays.toString(arr));
 
-        long[] lValues = new long[500];
-        Arrays.fill(lValues, 2057); // set all values to 2057
-        System.out.println(lValues[9]);
 
+        //Summing all Elements in Array
+        int[] numbers = {3,4,5,-5,0,12};
+        int sum = 0;
 
-        // int array example
-        int arr[] = {10, 20, 30, 40, 50};
-        System.out.println("Original = " + Arrays.toString(arr));
+        //iterating through each element of the array
+        for(int number: numbers){
+            sum += number;
+        }
 
-        Arrays.fill(arr,99);
-        System.out.println("After filling = " + Arrays.toString(arr));
-
-        Arrays.fill(arr, 0, 3, 88);
-        System.out.println("After filling first 3 elements = " + Arrays.toString(arr));
-
+        System.out.println( "Sum = " + sum);
     }
 }
