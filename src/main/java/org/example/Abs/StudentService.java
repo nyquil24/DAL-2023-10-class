@@ -15,10 +15,15 @@ public class StudentService extends AbstractStudent{
         return fullname;
     }
 
-
+    @Override
     public void dispalyinformation() {
-        int[]arr = new int[];
+
     }
+
+
+//    public void dispalyinformation() {
+//        int[]arr = new int[];
+//    }
 
 
     public String[] getFullName(String[] fullname) {
