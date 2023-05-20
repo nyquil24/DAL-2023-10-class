@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Arrays;
 
 public class Arrays {
     public static void main(String[] args) {
