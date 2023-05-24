@@ -22,5 +22,15 @@ public class myRunner {
         genericMethodExample.printArray( intArray);
         System.out.println("Printing Character Array");
         genericMethodExample.printArray(charArray);
+
+        // initialize generic class
+        // with Integer data
+        Genericsclass<Integer> intObj = new Genericsclass<>(5);
+        System.out.println("Generic Class returns: " + intObj.getData());
+
+        // initialize generic class again
+        // with String data
+        Genericsclass<String> stringObj = new Genericsclass<>("Java");
+        System.out.println("Generic Class returns: " + stringObj.getData());
     }
 }
