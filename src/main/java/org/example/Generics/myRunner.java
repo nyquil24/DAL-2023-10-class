@@ -32,5 +32,10 @@ public class myRunner {
         // with String data
         Genericsclass<String> stringObj = new Genericsclass<>("Java");
         System.out.println("Generic Class returns: " + stringObj.getData());
+
+        ElephantItem<Integer> ObjMove = new ElephantItem<>();
+        ObjMove.move(5, "NYC");
+        System.out.println(ObjMove.getItemBeingMoved() + " Item");
+        System.out.println(ObjMove.getLocationBeingMovedTo() + " Location");
     }
 }
