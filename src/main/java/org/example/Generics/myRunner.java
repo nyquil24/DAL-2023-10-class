@@ -37,5 +37,13 @@ public class myRunner {
         ObjMove.move(5, "NYC");
         System.out.println(ObjMove.getItemBeingMoved() + " Item");
         System.out.println(ObjMove.getLocationBeingMovedTo() + " Location");
+
+        // initialize generic class with Integer value
+        MathBox<Integer> mObj = new MathBox<Integer>(5);
+        //initialize generic class with double value
+        MathBox<Double> mObj2 = new MathBox<Double>(32.1);
+
+        System.out.println(mObj.sqrt());
+        System.out.println(mObj2.sqrt());
     }
 }

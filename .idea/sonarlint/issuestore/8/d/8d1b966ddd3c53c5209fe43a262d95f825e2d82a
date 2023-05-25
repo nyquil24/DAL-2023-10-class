@@ -1,0 +1,9 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æèèŠøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ´ÌÊ
+M
+java:S3518"7Make sure "d" can't be zero before doing this division.(ÔèÀ
+G
+java:S1481"1Remove this unused "divideByZero" local variable.(ÔèÀ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(å¦©ßûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬¦œ—

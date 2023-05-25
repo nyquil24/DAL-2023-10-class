@@ -21,3 +21,15 @@ b
 2src/main/java/org/example/Abs/AbstractStudent.java,a/4/a4e9411edd774544efc108db1b9d0153f3a8fe43
 a
 1src/main/java/org/example/Abs/StudentService.java,b/a/ba72e36ef794233be4fd7a7fdd63c7f6ae62d85e
+e
+5src/main/java/org/example/Arrays/ReversingArrays.java,a/c/ac3f7fc00ac7d6fd62d46ffe5829575b3cd530da
+g
+7src/main/java/org/example/Error_Excep/Excep_slides.java,8/d/8d1b966ddd3c53c5209fe43a262d95f825e2d82a
+l
+<src/main/java/org/example/Generics/genericMethodExample.java,f/c/fc41c535ac647dc8ab1b2ef8f7c641072073211c
+`
+0src/main/java/org/example/Generics/Moveable.java,4/6/46ff8c0ba23c52c9cab6ea1373616e1914279103
+d
+4src/main/java/org/example/Generics/ElephantItem.java,c/4/c4ad95e458b665143ce61300ce80099afd234e47
+e
+5src/main/java/org/example/Generics/Genericsclass.java,a/4/a4dec52f8a83888cb6186bc384df40456aaa9f98
