@@ -33,3 +33,9 @@ d
 4src/main/java/org/example/Generics/ElephantItem.java,c/4/c4ad95e458b665143ce61300ce80099afd234e47
 e
 5src/main/java/org/example/Generics/Genericsclass.java,a/4/a4dec52f8a83888cb6186bc384df40456aaa9f98
+b
+2src/main/java/org/example/Lamda_Func/MyRunner.java,f/a/fa4a5ca78c6b8ecc8a84fc8eb2df43b6a57cb81b
+^
+.src/main/java/org/example/Lamda_Func/Calc.java,f/c/fc276cc3d8ce8c35e44f8aa9ed2c7bf30eac4a14
+c
+3src/main/java/org/example/Lamda_Func/MainEntry.java,3/7/372afd90b19b0f0687a39c2e0cf4f4eade2a6bfb
