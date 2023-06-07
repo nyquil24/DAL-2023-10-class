@@ -2,18 +2,12 @@ package org.example.Error_Excep;
 
 public class MyRunner {
     public static void main(String[] args) {
-        try{
-            int d = 0;
-            int n = 5;
-            // code that generates exception
-                int divideByZero = n / d;
-        }
-        catch(ArithmeticException e) {
-            System.out.println("ArithmeticException occur => " + e.getMessage());
-            e.printStackTrace();
-        }
-        finally{
-            System.out.println("This is the finally block");
+        try {
+            //this try block calls th above method to handle the exception
+            Example_Throw obj = new Example_Throw();
+            obj.testMethod(1);
+        }catch(Exception ex){
+            System.out.println(ex);
         }
     }
 }
